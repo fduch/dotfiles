@@ -1,11 +1,10 @@
+# About
+
+dotfiles, managed with [`chezmoi`](https://github.com/twpayne/chezmoi).
+
 Inspired by 
  - https://medium.com/airfrance-klm/beautify-your-iterm2-and-prompt-40f148761a49
  - https://github.com/chimurai/dotfiles
-
-
-# github.com/chimurai/dotfiles
-
-dotfiles, managed with [`chezmoi`](https://github.com/twpayne/chezmoi).
 
 ## Prerequisite: Installation of homebrew and chezmoi
 
