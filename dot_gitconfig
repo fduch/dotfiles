@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	sui = submodule update --init
+	ru = remote update
+[user]
+	name = fduch
+	email = alex.medwedew@gmail.com
