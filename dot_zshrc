@@ -108,3 +108,6 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Custom exports
+export PATH="$HOME/.local/bin:$PATH"
