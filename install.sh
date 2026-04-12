@@ -16,6 +16,10 @@ if [ ! -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
   (echo '💰  Installing oh-my-zsh' && yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)")
 fi
 
+# Install zplug
+command -v zplug --help >/dev/null 2>&1 || \
+  (echo 'Installing zplug' && brew install zplug)
+
 # Install chezmoi
 command -v chezmoi >/dev/null 2>&1 || \
   (echo '👊  Installing chezmoi' && brew install chezmoi)
@@ -27,6 +31,8 @@ else
   echo "🚀  Initialize dotfiles with:"
   echo "    chezmoi init https://github.com/fduch/dotfiles"
 fi
+
+echo "Now install iterm2 (https://iterm2.com/) and https://github.com/sindresorhus/iterm2-snazzy"
 
 echo ""
 echo "Done."
